@@ -1,7 +1,7 @@
-# capivarawars-backend-playerservice
+# playerservice API
 Microservice of the CapivaraWars game for managing Player data.
 
-# ADDRESS
+## ADDRESS
 http://localhost:8082/api/v1/playerservice
 	
 
