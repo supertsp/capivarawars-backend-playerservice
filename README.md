@@ -1,11 +1,11 @@
-# playerservice API
+# API: playerservice
 Microservice of the CapivaraWars game for managing Player data.
 
-## ADDRESS
+### ADDRESS
 http://localhost:8082/api/v1/playerservice
 	
 
-# ASCII ART                                                                       
+### ASCII ART                                                                       
 .                        //                                               
 .          ^_^        ///-\\\                                             
 .   .-----/  0\       |O   O|                                             
@@ -16,11 +16,11 @@ http://localhost:8082/api/v1/playerservice
 
 # SWAGGER
 
-## ANNOTATIONS EXAMPLE
+### ANNOTATIONS EXAMPLE
 https://github.com/swagger-api/swagger-core/wiki/Annotations-1.5.X
 
-## JSON ADDRESS
+### JSON ADDRESS
 http://localhost:8082/v2/api-docs
 	
-## UI ADDRESS
+### UI ADDRESS
 http://localhost:8082/swagger-ui.html
