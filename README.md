@@ -5,14 +5,13 @@ Microservice of the CapivaraWars game for managing Player data.
 http://localhost:8082/api/v1/playerservice
 	
 
-# ASCII ART
-                                                                        
-                       //                                               
-         ^_^        ///-\\\                                             
-  .-----/  0\       |O   O|                                             
- /  \     __/       |  ^  |                                             
- \  /_- -/           \ O /                                              
-  \\\  \\\            | |                                               
+# ASCII ART                                                                       
+.                        //                                               
+.          ^_^        ///-\\\                                             
+.   .-----/  0\       |O   O|                                             
+.  /  \     __/       |  ^  |                                             
+.  \  /_- -/           \ O /                                              
+.   \\\  \\\            | |                                               
 .~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # SWAGGER
