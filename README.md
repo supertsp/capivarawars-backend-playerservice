@@ -1,5 +1,5 @@
 # API: playerservice
-Microservice of the CapivaraWars game for managing Player data.
+CapivaraWars game microservice to managing Player data.
 
 ### ADDRESS
 http://localhost:8082/api/v1/playerservice
