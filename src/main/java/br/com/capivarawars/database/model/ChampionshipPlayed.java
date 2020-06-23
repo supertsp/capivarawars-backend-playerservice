@@ -50,6 +50,10 @@ public class ChampionshipPlayed {
 	@Column(name = "ID_CHAMPIONSHIP")
 	private Long idChampionship;
 	
+	// REMOVE IN FUTURE
+	@Column(name = "NAME", length = 255, nullable = false)
+	private String name;
+	
 	@Column(name = "START", columnDefinition = "DATETIME")
 	private LocalDateTime start;
 	
@@ -97,7 +101,16 @@ public class ChampionshipPlayed {
 		this.idChampionship = idChampionship;
 		return this;
 	}
-	
+
+	public String getName() {
+		return name;
+	}
+
+	public ChampionshipPlayed setName(String name) {
+		this.name = name;
+		return this;
+	}
+		
 	public LocalDateTime getStart() {
 		return start;
 	}
@@ -166,6 +179,7 @@ public class ChampionshipPlayed {
 	public boolean isValidObject() {
         return playerFK != null
                 && idChampionship != null
+                && name != null
                 && idGameStatus != null;
     }
 	// </editor-fold>

@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Bean;
 import static br.com.capivarawars.endpoint.config.EndpointsMapping.*;
 
 import feign.Client;
+import java.text.Normalizer;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Collections;
@@ -42,6 +43,8 @@ public class PlayerServiceAPI {
 	
 	private static String apiName = "Player Service";
 	private static int serverPort = 8082;
+	
+	
 		
 	public static void main(String[] args) {
 		SpringApplication.run(PlayerServiceAPI.class, args);

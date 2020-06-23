@@ -43,7 +43,7 @@ public class Player {
 
 	@Column(name = "NICK", length = VARCHAR_LENGTH_NICK, unique = true, nullable = false)
 	private String nick;
-
+	
 	@Column(name = "PASSWORD", length = VARCHAR_LENGTH_PASSWORD)
 	private String password;
 

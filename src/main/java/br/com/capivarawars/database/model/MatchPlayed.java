@@ -48,6 +48,10 @@ public class MatchPlayed {
 	
 	@Column(name = "ID_MATCH")
 	private Long idMatch;
+	
+	// REMOVE IN FUTURE
+	@Column(name = "NAME", length = 255, nullable = false)
+	private String name;
 
 	@Column(name = "ID_GAME_STATUS")
 	private Long idGameStatus;
@@ -92,6 +96,15 @@ public class MatchPlayed {
 		return this;
 	}
 
+	public String getName() {
+		return name;
+	}
+
+	public MatchPlayed setName(String name) {
+		this.name = name;
+		return this;
+	}
+	
 	public Long getIdGameStatus() {
 		return idGameStatus;
 	}
@@ -141,7 +154,8 @@ public class MatchPlayed {
 	@JsonIgnore
 	public boolean isValidObject(){
         return playerFK != null
-                && idMatch != null;
+                && idMatch != null
+				&& name != null;
     }
 	// </editor-fold>
 
