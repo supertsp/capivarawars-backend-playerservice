@@ -54,11 +54,11 @@ public class ChampionshipPlayed {
 	@Column(name = "NAME", length = 255, nullable = false)
 	private String name;
 	
-	@Column(name = "START", columnDefinition = "DATETIME")
-	private LocalDateTime start;
+	@Column(name = "START_DATETIME", columnDefinition = "TIMESTAMP")
+	private LocalDateTime startDateTime;
 	
-	@Column(name = "END", columnDefinition = "DATETIME")
-	private LocalDateTime end;
+	@Column(name = "END_DATETIME", columnDefinition = "TIMESTAMP")
+	private LocalDateTime endDateTime;
 	
 	@Column(name = "ID_GAME_STATUS")
 	private Long idGameStatus;
@@ -111,21 +111,21 @@ public class ChampionshipPlayed {
 		return this;
 	}
 		
-	public LocalDateTime getStart() {
-		return start;
+	public LocalDateTime getStartDateTime() {
+		return startDateTime;
 	}
 		
-	public ChampionshipPlayed setStart(LocalDateTime start) {
-		this.start = start;
+	public ChampionshipPlayed setStartDateTime(LocalDateTime start) {
+		this.startDateTime = start;
 		return this;
 	}
 	
-	public LocalDateTime getEnd() {
-		return end;
+	public LocalDateTime getEndDateTime() {
+		return endDateTime;
 	}
 
-	public ChampionshipPlayed setEnd(LocalDateTime end) {
-		this.end = end;
+	public ChampionshipPlayed setEndDateTime(LocalDateTime end) {
+		this.endDateTime = end;
 		return this;
 	}
 

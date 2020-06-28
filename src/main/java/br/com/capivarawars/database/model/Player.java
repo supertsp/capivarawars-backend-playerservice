@@ -51,7 +51,7 @@ public class Player {
 	private String email;
 	
 //	@JsonFormat(shape = JsonFormat.Shape.STRING,  pattern = "yyyy-MM-dd hh:mm:ss")
-	@Column(name = "ACCOUNT_BIRTHDAY", columnDefinition = "DATETIME")
+	@Column(name = "ACCOUNT_BIRTHDAY", columnDefinition = "TIMESTAMP")
 	private LocalDateTime accountBirthday;
 
 	@Column(name = "AVATAR_URL", length = VARCHAR_LENGTH_AVATAR_URL)
@@ -63,7 +63,7 @@ public class Player {
 	@Column(name = "GENDER", length = CHAR_LENGTH_GENDER, columnDefinition = "CHAR")
 	private Character gender;
 
-	@Column(name = "BIRTHDAY", columnDefinition = "DATE")
+	@Column(name = "BIRTHDAY", columnDefinition = "TIMESTAMP")
 	private LocalDate birthday;
 
 	@Column(name = "ONLINE")
