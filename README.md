@@ -3,6 +3,8 @@ CapivaraWars game microservice to managing Player data.
 
 ### ADDRESS
 http://localhost:8082/api/v1/playerservice
+
+Heroku: https://capivarawars-player-service.herokuapp.com/
 	
 
 ### ASCII ART                                                                       
