@@ -26,3 +26,5 @@ http://localhost:8082/v2/api-docs
 	
 ### UI ADDRESS
 http://localhost:8082/swagger-ui.html
+
+
